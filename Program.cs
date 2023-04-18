@@ -38,3 +38,7 @@ var input = new ModelInput
 var result = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(model).Predict(input);
 Console.WriteLine($"Predicted fare: " + $"{result.FareAmount}");
 
+
+// Save trained model: Model Consumption in End-User Applications
+mlContext.Model.Save(model, trainData.Schema, "MLModel.zip");
+
