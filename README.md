@@ -1,4 +1,4 @@
-# axi Fare PredictionTaxiFairePrediction
+# Taxi Fare PredictionTaxiFairePrediction
 In this project you'll see how to use ML.NET to predict taxi fares. In the world of machine learning, this type of prediction is known as regression.
 
 Problem
